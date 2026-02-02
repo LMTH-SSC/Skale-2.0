@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Valentine’s Proposal 🌸</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  font-family:Poppins,sans-serif;
+  background:linear-gradient(135deg,#ffd1dc,#ffb6c1);
+  color:#3a0f14;
+  text-align:center;
+  overflow-x:hidden;
+}
+
+.heart{
+  position:fixed;
+  bottom:-60px;
+  font-size:34px;
+  opacity:.7;
+  animation:floatUp 11s linear infinite;
+}
+
+@keyframes floatUp{
+  to{transform:translateY(-120vh) scale(1.5);opacity:0;}
+}
+
+section{max-width:900px;margin:3rem auto;padding:2rem;animation:fadeUp 1s ease;}
+
+h1{font-size:3rem;color:#ff4f9a;animation:glow 3s infinite alternate;}
+h2{color:#ff6fae;}
+
+.card{
+  background:linear-gradient(135deg,#ffe6ee,#ffd6e0);
+  padding:2.5rem;
+  margin:2.5rem auto;
+  border-radius:30px;
+  box-shadow:0 20px 40px rgba(255,79,154,.3);
+  animation:breathe 5s infinite;
+}
+
+.cta{
+  background:linear-gradient(135deg,#ff4f9a,#ff6fae);
+  color:#fff;
+  padding:1.2rem 3rem;
+  border:none;
+  border-radius:50px;
+  font-size:1.1rem;
+  animation:shimmer 3s infinite;
+}
+
+.contact,footer{color:#ff4f9a;margin-top:1.5rem;}
+
+@keyframes fadeUp{from{opacity:0;transform:translateY(30px);}to{opacity:1;transform:translateY(0);}}
+@keyframes breathe{50%{transform:scale(1.03);}}
+@keyframes glow{to{text-shadow:0 0 22px rgba(255,79,154,.8);}}
+@keyframes shimmer{50%{box-shadow:0 0 35px rgba(255,79,154,.8);}}
+</style>
+</head>
+<body>
+
+<div class="heart" style="left:20%">🌸</div>
+<div class="heart" style="left:40%;animation-delay:2s">💖</div>
+<div class="heart" style="left:60%;animation-delay:4s">🌸</div>
+<div class="heart" style="left:80%;animation-delay:1s">💕</div>
+
+<section>
+  <h1>Valentine’s Proposal Website</h1>
+  <p>Sweet. Romantic. Personal.</p>
+</section>
+
+<section class="card">
+  <h2>Say it differently</h2>
+  <p>Not a text. Not a DM. An experience.</p>
+</section>
+
+<section>
+  <a href="./index.html"><button class="cta">Build My Valentine's Party🌸</button></a>
+  <div class="contact">Snapchat: <strong>@habeeb22779</strong></div>
+</section>
+
+<footer>Made by <strong>Skale.dev</strong> 🌸</footer>
+</body>
+</html>
